@@ -29,7 +29,7 @@ float radius = 2.0f;
 void loadTexture()
 {
     int width, height, channels;
-    unsigned char *data = stbi_load("Earth2.jpg", &width, &height, &channels, 0);
+    unsigned char *data = stbi_load("Earth.jpg", &width, &height, &channels, 0);
     if (data)
     {
         glGenTextures(1, &textureID);
