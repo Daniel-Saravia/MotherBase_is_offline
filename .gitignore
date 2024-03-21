@@ -1,0 +1,7 @@
+# Ignore binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.class
+*.jar
