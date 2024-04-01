@@ -195,6 +195,7 @@ void update(int value)
 // The main function where execution begins
 int main(int argc, char **argv)
 {
+    std::cout << "Press + to zoom in and - to zoom out:" << std::endl;
     glutInit(&argc, argv); // Initialize GLUT
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH); // Set the display mode to double buffering, RGB color, and depth buffering
     glutInitWindowSize(2000, 2000); // Set the initial window size
